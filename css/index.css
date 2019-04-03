@@ -248,3 +248,66 @@ ul.footerList li {
 	text-align: center;
 	margin: 20px 0;
 }
+
+/* Adding media queries for tablet (max-width: 800px) */
+
+@media (max-width: 800px) {
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        flex-flow: column;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav {
+        order: 1;
+        width: 100%;
+    }
+
+    header nav a {
+        font-weight: 600;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    h1.hero-text {
+        font-size: 70px;
+    }
+
+    .hero-block {
+        width: 100%;
+    }
+
+    .middle-img {
+        width: 100%;
+    }
+
+    section.sections-3 {
+        width: 32%;
+    }
+    
+    section.sections-2 {
+        width: 49%;
+    }
+
+    .content {
+        margin: 0 20px;
+    }
+
+    .contact-info {
+        margin: 40px 20px 20px;
+    }
+}
+
+/* Adding media queries for mobile (max-width: 500px) */
+
+@media (max-width: 500px) {
+    
+}
