@@ -68,9 +68,9 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body {
-	width: 1076px;
+	width: 876px;
 	margin: 0 auto;
-	padding: 0 100px;
+	padding: 0 0;
 	font-family: "Segoe UI", sans-serif;
 	line-height: 1.2em;
 }
