@@ -304,6 +304,33 @@ ul.footerList li {
     .contact-info {
         margin: 40px 20px 20px;
     }
+
+    .main-section {
+        margin: 20px 20px;
+    }
+    
+    .main-section h1 {
+        font-size: 35px;
+    }
+    
+    .main-section p {
+        font-size: 19px;
+    }
+
+    .services-page {
+    }
+
+    section.sectionBoxed {
+        width: 49%;
+    }
+
+    .footer-sections {
+        margin: 40px 20px 0px 20px;
+    }
+
+    .footer-sections section {
+        width: 100%;
+    }
 }
 
 /* Adding media queries for mobile (max-width: 500px) */
