@@ -317,9 +317,6 @@ ul.footerList li {
         font-size: 19px;
     }
 
-    .services-page {
-    }
-
     section.sectionBoxed {
         width: 49%;
     }
@@ -369,5 +366,17 @@ ul.footerList li {
     
     section.sections-2 {
         width: 100%;
+    }
+
+    .services-page {
+        flex-flow: column;
+    }
+
+    section.sectionBoxed {
+        width: 100%;
+    }
+
+    .footer-sections {
+        flex-flow: column;
     }
 }
